@@ -5,7 +5,7 @@
 # Github              : https://github.com/dsancheznet
 # Homepage            : https://www.dsanchez.net/
 # Region              : Canary Islands, Spain (🇮🇨 🇪🇸)
-# Ámbito de cobertura : Las Palmas de Gran Canaria. Arucas, Gáldar, Santa Brígida, Santa María de Guía de Gran Canaria, Teror, Moya, Vega de San Mateo, Firgas, Agaete y Valleseco
+# Ámbito de cobertura : Telde, Santa Lucía de Tirajana, San Bartolomé de Tirajana, Ingenio, Agüimes y Valsequillo de Gran Canaria
 # 
 # ✂----------- Channel List ----------
  
@@ -129,12 +129,12 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
-# Channel : 44
-# TV      : Gran Canaria TV, Mírame TV
+# Channel : 40
+# TV      : Este Canal, Gran Canaria TV, Mírame TV, Nortevisión
 # RADIO   : 
-[CHANNEL 44]
+[CHANNEL 40]
     DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 658000000
+    FREQUENCY = 626000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE

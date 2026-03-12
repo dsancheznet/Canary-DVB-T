@@ -5,25 +5,10 @@
 # Github              : https://github.com/dsancheznet
 # Homepage            : https://www.dsanchez.net/
 # Region              : Canary Islands, Spain (🇮🇨 🇪🇸)
-# Ámbito de cobertura : Las Palmas de Gran Canaria. Arucas, Gáldar, Santa Brígida, Santa María de Guía de Gran Canaria, Teror, Moya, Vega de San Mateo, Firgas, Agaete y Valleseco
+# Ámbito de cobertura : Puerto del Rosario, Pájara, Oliva, Tuineje, Antigua y Betancuria
 # 
 # ✂----------- Channel List ----------
  
-# Channel : 22
-# TV      : TV Canaria, Atlántico TV, Mírame TV
-# RADIO   : Canarias Radio, La Mueve, Atlántico Radio
-[CHANNEL 22]
-    DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 482000000
-    BANDWIDTH_HZ = 8000000
-    CODE_RATE_HP = 2/3
-    CODE_RATE_LP = NONE
-    MODULATION = QAM/64
-    TRANSMISSION_MODE = 8K
-    GUARD_INTERVAL = 1/4
-    HIERARCHY = NONE
-    INVERSION = AUTO
-
 # Channel : 25
 # TV      : A3Series, BeMad tv HD, Realmadrid TV HD, TEN
 # RADIO   : LOS40 Classic, LOS40 Urban, Radiolé
@@ -45,6 +30,21 @@
 [CHANNEL 28]
     DELIVERY_SYSTEM = DVBT2
     FREQUENCY = 530000000
+    BANDWIDTH_HZ = 8000000
+    CODE_RATE_HP = 2/3
+    CODE_RATE_LP = NONE
+    MODULATION = QAM/64
+    TRANSMISSION_MODE = 8K
+    GUARD_INTERVAL = 1/4
+    HIERARCHY = NONE
+    INVERSION = AUTO
+
+# Channel : 30
+# TV      : TV Canaria, Atlántico TV, Mírame TV
+# RADIO   : Canarias Radio, La Mueve, Atlántico Radio
+[CHANNEL 30]
+    DELIVERY_SYSTEM = DVBT2
+    FREQUENCY = 546000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE
@@ -84,6 +84,21 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
+# Channel : 34
+# TV      : FDF, Divinity, Telecinco HD, Cuatro HD
+# RADIO   : 
+[CHANNEL 34]
+    DELIVERY_SYSTEM = DVBT2
+    FREQUENCY = 578000000
+    BANDWIDTH_HZ = 8000000
+    CODE_RATE_HP = 2/3
+    CODE_RATE_LP = NONE
+    MODULATION = QAM/64
+    TRANSMISSION_MODE = 8K
+    GUARD_INTERVAL = 1/4
+    HIERARCHY = NONE
+    INVERSION = AUTO
+
 # Channel : 35
 # TV      : VEO 7, SQUIRREL, SQUIRREL2, DMAX
 # RADIO   : RADIO MARCA, CADENA 100, RADIO MARIA, BOM RADIO
@@ -114,27 +129,12 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
-# Channel : 38
-# TV      : FDF, Divinity, Telecinco HD, Cuatro HD
-# RADIO   : 
-[CHANNEL 38]
+# Channel : 37
+# TV      : Mírame TV
+# RADIO   : Onda Fuerteventura
+[CHANNEL 37]
     DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 610000000
-    BANDWIDTH_HZ = 8000000
-    CODE_RATE_HP = 2/3
-    CODE_RATE_LP = NONE
-    MODULATION = QAM/64
-    TRANSMISSION_MODE = 8K
-    GUARD_INTERVAL = 1/4
-    HIERARCHY = NONE
-    INVERSION = AUTO
-
-# Channel : 44
-# TV      : Gran Canaria TV, Mírame TV
-# RADIO   : 
-[CHANNEL 44]
-    DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 658000000
+    FREQUENCY = 602000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE

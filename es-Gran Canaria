@@ -5,7 +5,7 @@
 # Github              : https://github.com/dsancheznet
 # Homepage            : https://www.dsanchez.net/
 # Region              : Canary Islands, Spain (🇮🇨 🇪🇸)
-# Ámbito de cobertura : Las Palmas de Gran Canaria. Arucas, Gáldar, Santa Brígida, Santa María de Guía de Gran Canaria, Teror, Moya, Vega de San Mateo, Firgas, Agaete y Valleseco
+# Ámbito de cobertura : Isla de Gran Canaria
 # 
 # ✂----------- Channel List ----------
  
@@ -84,6 +84,21 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
+# Channel : 33
+# TV      : Mírame TV, Nortevisión
+# RADIO   : 
+[CHANNEL 33]
+    DELIVERY_SYSTEM = DVBT2
+    FREQUENCY = 570000000
+    BANDWIDTH_HZ = 8000000
+    CODE_RATE_HP = 2/3
+    CODE_RATE_LP = NONE
+    MODULATION = QAM/64
+    TRANSMISSION_MODE = 8K
+    GUARD_INTERVAL = 1/4
+    HIERARCHY = NONE
+    INVERSION = AUTO
+
 # Channel : 35
 # TV      : VEO 7, SQUIRREL, SQUIRREL2, DMAX
 # RADIO   : RADIO MARCA, CADENA 100, RADIO MARIA, BOM RADIO
@@ -120,21 +135,6 @@
 [CHANNEL 38]
     DELIVERY_SYSTEM = DVBT2
     FREQUENCY = 610000000
-    BANDWIDTH_HZ = 8000000
-    CODE_RATE_HP = 2/3
-    CODE_RATE_LP = NONE
-    MODULATION = QAM/64
-    TRANSMISSION_MODE = 8K
-    GUARD_INTERVAL = 1/4
-    HIERARCHY = NONE
-    INVERSION = AUTO
-
-# Channel : 44
-# TV      : Gran Canaria TV, Mírame TV
-# RADIO   : 
-[CHANNEL 44]
-    DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 658000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE

@@ -5,16 +5,16 @@
 # Github              : https://github.com/dsancheznet
 # Homepage            : https://www.dsanchez.net/
 # Region              : Canary Islands, Spain (🇮🇨 🇪🇸)
-# Ámbito de cobertura : Las Palmas de Gran Canaria. Arucas, Gáldar, Santa Brígida, Santa María de Guía de Gran Canaria, Teror, Moya, Vega de San Mateo, Firgas, Agaete y Valleseco
+# Ámbito de cobertura : Llanos de Aridane, Santa Cruz de la Palma, Paso, Breña Alta, Tazacorte, San Andrés y Sauces, Villa de Mazo, Breña Baja, Tijarafe, Barlovento, Puntallana, Garafía, Fuencaliente de la Palma y Puntagorda
 # 
 # ✂----------- Channel List ----------
  
-# Channel : 22
-# TV      : TV Canaria, Atlántico TV, Mírame TV
-# RADIO   : Canarias Radio, La Mueve, Atlántico Radio
-[CHANNEL 22]
+# Channel : 23
+# TV      : VEO 7, SQUIRREL, SQUIRREL2, DMAX
+# RADIO   : RADIO MARCA, CADENA 100, RADIO MARIA, BOM RADIO
+[CHANNEL 23]
     DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 482000000
+    FREQUENCY = 490000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE
@@ -24,12 +24,27 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
-# Channel : 25
-# TV      : A3Series, BeMad tv HD, Realmadrid TV HD, TEN
-# RADIO   : LOS40 Classic, LOS40 Urban, Radiolé
-[CHANNEL 25]
+# Channel : 26
+# TV      : FDF, Divinity, Telecinco HD, Cuatro HD
+# RADIO   : 
+[CHANNEL 26]
     DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 506000000
+    FREQUENCY = 514000000
+    BANDWIDTH_HZ = 8000000
+    CODE_RATE_HP = 2/3
+    CODE_RATE_LP = NONE
+    MODULATION = QAM/64
+    TRANSMISSION_MODE = 8K
+    GUARD_INTERVAL = 1/4
+    HIERARCHY = NONE
+    INVERSION = AUTO
+
+# Channel : 27
+# TV      : tdp HD, 24h HD, La 1 HD, La 2 HD
+# RADIO   : RNE Canarias, Radio 5 RNE, Ràdio 4 RNE
+[CHANNEL 27]
+    DELIVERY_SYSTEM = DVBT2
+    FREQUENCY = 522000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE
@@ -40,8 +55,8 @@
     INVERSION = AUTO
 
 # Channel : 28
-# TV      : tdp HD, 24h HD, La 1 HD, La 2 HD
-# RADIO   : RNE Canarias, Radio 5 RNE, Ràdio 4 RNE
+# TV      : Mírame TV, Canal 11
+# RADIO   : Canal 11 Radio
 [CHANNEL 28]
     DELIVERY_SYSTEM = DVBT2
     FREQUENCY = 530000000
@@ -54,27 +69,12 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
-# Channel : 31
-# TV      : MEGA, TRECE, Energy, Boing
-# RADIO   : ONDA CERO, EUROPA FM, Melodía FM, COPE, Rock FM
-[CHANNEL 31]
-    DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 554000000
-    BANDWIDTH_HZ = 8000000
-    CODE_RATE_HP = 2/3
-    CODE_RATE_LP = NONE
-    MODULATION = QAM/64
-    TRANSMISSION_MODE = 8K
-    GUARD_INTERVAL = 1/4
-    HIERARCHY = NONE
-    INVERSION = AUTO
-
-# Channel : 32
+# Channel : 29
 # TV      : Antena 3, laSexta, neox, nova
 # RADIO   : 
-[CHANNEL 32]
+[CHANNEL 29]
     DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 562000000
+    FREQUENCY = 538000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE
@@ -84,12 +84,12 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
-# Channel : 35
-# TV      : VEO 7, SQUIRREL, SQUIRREL2, DMAX
-# RADIO   : RADIO MARCA, CADENA 100, RADIO MARIA, BOM RADIO
-[CHANNEL 35]
+# Channel : 41
+# TV      : MEGA, TRECE, Energy, Boing
+# RADIO   : ONDA CERO, EUROPA FM, Melodía FM, COPE, Rock FM
+[CHANNEL 41]
     DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 586000000
+    FREQUENCY = 634000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE
@@ -99,42 +99,42 @@
     HIERARCHY = NONE
     INVERSION = AUTO
 
-# Channel : 36
+# Channel : 43
+# TV      : A3Series, BeMad tv HD, Realmadrid TV HD, TEN
+# RADIO   : LOS40 Classic, LOS40 Urban, Radiolé
+[CHANNEL 43]
+    DELIVERY_SYSTEM = DVBT2
+    FREQUENCY = 650000000
+    BANDWIDTH_HZ = 8000000
+    CODE_RATE_HP = 2/3
+    CODE_RATE_LP = NONE
+    MODULATION = QAM/64
+    TRANSMISSION_MODE = 8K
+    GUARD_INTERVAL = 1/4
+    HIERARCHY = NONE
+    INVERSION = AUTO
+
+# Channel : 46
+# TV      : TV Canaria, Atlántico TV, Mírame TV
+# RADIO   : Canarias Radio, La Mueve, Atlántico Radio
+[CHANNEL 46]
+    DELIVERY_SYSTEM = DVBT2
+    FREQUENCY = 674000000
+    BANDWIDTH_HZ = 8000000
+    CODE_RATE_HP = 2/3
+    CODE_RATE_LP = NONE
+    MODULATION = QAM/64
+    TRANSMISSION_MODE = 8K
+    GUARD_INTERVAL = 1/4
+    HIERARCHY = NONE
+    INVERSION = AUTO
+
+# Channel : 48
 # TV      : Clan HD, La 1 UHD, DKISS
 # RADIO   : Radio Clasica HQ RNE, Radio3 HQ RNE, Radio Exterior RNE, Kiss FM, HIT FM, esRadio, SER, LOS40, DIAL
-[CHANNEL 36]
+[CHANNEL 48]
     DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 594000000
-    BANDWIDTH_HZ = 8000000
-    CODE_RATE_HP = 2/3
-    CODE_RATE_LP = NONE
-    MODULATION = QAM/64
-    TRANSMISSION_MODE = 8K
-    GUARD_INTERVAL = 1/4
-    HIERARCHY = NONE
-    INVERSION = AUTO
-
-# Channel : 38
-# TV      : FDF, Divinity, Telecinco HD, Cuatro HD
-# RADIO   : 
-[CHANNEL 38]
-    DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 610000000
-    BANDWIDTH_HZ = 8000000
-    CODE_RATE_HP = 2/3
-    CODE_RATE_LP = NONE
-    MODULATION = QAM/64
-    TRANSMISSION_MODE = 8K
-    GUARD_INTERVAL = 1/4
-    HIERARCHY = NONE
-    INVERSION = AUTO
-
-# Channel : 44
-# TV      : Gran Canaria TV, Mírame TV
-# RADIO   : 
-[CHANNEL 44]
-    DELIVERY_SYSTEM = DVBT2
-    FREQUENCY = 658000000
+    FREQUENCY = 690000000
     BANDWIDTH_HZ = 8000000
     CODE_RATE_HP = 2/3
     CODE_RATE_LP = NONE
